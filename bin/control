@@ -1,7 +1,5 @@
 #!/bin/bash -e
 
-PATH=${OPENSHIFT_DATA_DIR}/node/bin/:/bin/:/usr/bin:$PATH
-
 function start {
     cd $OPENSHIFT_REPO_DIR
     nohup npm start -d >> $OPENSHIFT_NODEJS_LOG_DIR/nodejs.log 2>&1 &
