@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="v0.10.12"
+VERSION="v0.10.30"
 curl -s -o ${OPENSHIFT_DATA_DIR}/node-${VERSION}-linux-x64.tar.gz http://nodejs.org/dist/${VERSION}/node-${VERSION}-linux-x64.tar.gz
 cd ${OPENSHIFT_DATA_DIR}
 tar xzf node-${VERSION}-linux-x64.tar.gz
