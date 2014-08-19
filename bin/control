@@ -25,7 +25,7 @@ function build {
     npm config set tmp $OPENSHIFT_TMP_DIR
 
     cd $OPENSHIFT_REPO_DIR
-    npm install
+    npm install --production
 }
 
 function tidy {
